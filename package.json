@@ -1,0 +1,19 @@
+{
+  "name": "web-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "kkb": "./bin/kkb",
+    "init": "./bin/kkb-init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^4.0.4"
+  }
+}

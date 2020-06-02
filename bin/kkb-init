@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+const commander = require('commander');
+const clone = require('../lib/download');
+
+commander.action(({args}) =>{
+    clone("github:myshine63/react-demo", args[0]);
+})
+commander.parse(process.argv);
